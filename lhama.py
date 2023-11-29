@@ -37,7 +37,7 @@ chain = (
 )
 
 
-for s in chain.stream("What're clothing and footwear?"):
+for s in chain.stream("What are the clothes and shoes used in workshops?"):
     print(s, end="", flush=True)
 
 
